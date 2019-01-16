@@ -22,9 +22,9 @@
           <div class="row">
             <!-- sidebar -->
             <div class=" col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
-              <a href="#" class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 bottom-border">Company</a>
+              <a href="#" class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 bottom-border">Voice Dry Cleaner</a>
               <div class="bottom-border pb-3">
-                <img src="images/admin.jpeg" alt="Admin" width="50" class="rounded-circle mr-3">
+                <img src="images/admin.jpeg" alt="Admin" width="50" height="50" class="rounded-circle mr-3">
                 <a href="#" class="text-white">Jane Smith</a>
               </div>
               <ul class="navbar-nav flex-column mt-4">
@@ -193,10 +193,10 @@
                 <div class="card card-common">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
-                      <i class="fas fa-users fa-3x text-info"></i>
+                      <i class="fas fa-chart-line fa-3x text-info"></i>
                       <div class="text-right text-secondary">
-                        <h5>Users</h5>
-                        <h3>15</h3>
+                        <h5>Orders</h5>
+                        <h3>10</h3>
                       </div>
                     </div>
                   </div>
@@ -210,10 +210,10 @@
                 <div class="card card-common">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
-                      <i class="fas fa-chart-line fa-3x text-danger"></i>
+                      <i class="fas fa-users fa-3x text-danger"></i>
                       <div class="text-right text-secondary">
-                        <h5>Visitors</h5>
-                        <h3>45</h3>
+                        <h5>Customers</h5>
+                        <h3>15</h3>
                       </div>
                     </div>
                   </div>
@@ -228,9 +228,118 @@
         </div>
       </div>
     </section>
-
-
     <!-- end of cards -->
+
+    <!-- tables -->
+    <section>
+      <div class="container-fluid">
+        <div class="row mb-5">
+          <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="text-muted text-center mb-3">Orders</h3>
+                <table class="table table-striped bg-light text-center">
+                  <thead>
+                    <tr class="text-muted">
+                      <th>Order #</th>
+                      <th>Date / Time</th>
+                      <th>Customer</th>
+                      <th>Address</th>
+                      <th>Order Type</th>
+                      <th>Contact</th>
+                      <th>Special Note</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>1</th>
+                      <td>Jan 11, 2019 / 7:30 AM</td>
+                      <td>Suds McGee</td>
+                      <td>30 Sparkling Way</td>
+                      <td>Pickup</td>
+                      <td><button class="btn btn-info btn-sm">Message</button></td>
+                      <td>This is a special note.</td>
+                    </tr>
+                    <tr>
+                      <th>2</th>
+                      <td>Jan 11, 2019 / 10:00 AM</td>
+                      <td>Bubbles Cleanstein</td>
+                      <td>198 Fresh Dr</td>
+                      <td>Delivery</td>
+                      <td><button class="btn btn-info btn-sm">Message</button></td>
+                      <td>This is a special note.</td>
+                    </tr>
+                    <tr>
+                      <th>3</th>
+                      <td>Jan 12, 2019 / 9:45 AM</td>
+                      <td>Marie Starcher</td>
+                      <td>27 Laundry Ave</td>
+                      <td>Pickup</td>
+                      <td><button class="btn btn-info btn-sm">Message</button></td>
+                      <td>This is a special note.</td>
+                    </tr>
+                    <tr>
+                      <th>4</th>
+                      <td>Jan 13, 2019 / 1:15 PM</td>
+                      <td>Frank Clean</td>
+                      <td>145 Crisp St</td>
+                      <td>Delivery</td>
+                      <td><button class="btn btn-info btn-sm">Message</button></td>
+                      <td>This is a special note.</td>
+                    </tr>
+                    <tr>
+                      <th>5</th>
+                      <td>Jan 13, 2019 / 4:45 PM</td>
+                      <td>Jane Glisten</td>
+                      <td>90 Shimmer Circle</td>
+                      <td>Pickup</td>
+                      <td><button class="btn btn-info btn-sm">Message</button></td>
+                      <td>This is a special note.</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- pagination -->
+                <nav>
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3">
+                        <span>&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a href="#" class="page-link py-2 px-3">
+                        1
+                      </a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3">
+                        2
+                      </a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3">
+                        3
+                      </a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3">
+                        <span>&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- pagination -->
+              </div>
+              <div class="col-12">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of tables -->
 
   
    
